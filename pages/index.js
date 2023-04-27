@@ -78,7 +78,7 @@ const Index3 = ({posts}) => {
                       data-animation="fadeInDown"
                       data-delay=".4s"
                     >
-                      Welcome to Fernhall
+                      elcome to Fernhall
                     </span>
                     <h1 data-animation="fadeInUp" data-delay=".5s">
                       Organic Sheep Farm
