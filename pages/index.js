@@ -140,7 +140,7 @@ const Index3 = ({posts}) => {
                   <h2>Welcome to Fernhall &amp; Estate Farm</h2>
                 </div>
                 <p>
-                A rejuvenated country retreat that has been acquired by the Balfour family in 2019. The homestead is now available for community events and weekly rentals since July 2020. Come and experience the tranquility and privacy of rural living, while enjoying the space and numerous activities available on our estate. Whether you&apos;re looking for a venue for a special event or simply seeking a peaceful getaway, Orgrarium Farm is the perfect place to relax and unwind.
+                A rejuvenated country retreat that has been acquired by the Balfour family in 2019. The homestead is now available for community events and weekly rentals. Come and experience the tranquility and privacy of rural living, while enjoying the space and numerous activities available on our estate. Whether you&apos;re looking for a venue for a special event or simply seeking a peaceful getaway, Orgrarium Farm is the perfect place to relax and unwind.
                 </p>
                 <div className="row">
                   <div className="col-md-4 col-sm-12">
