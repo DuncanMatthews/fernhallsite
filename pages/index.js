@@ -65,10 +65,7 @@ const Index3 = ({posts}) => {
                   "url(assets/images/hero/hero_three-slider-3.jpg)",
               }}
             />
-            <div className="brand-card dark-black-bg">
-              <img src="assets/images/icon/wheat.png" alt="" />
-              <h3>Orgarium</h3>
-            </div>
+            
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
