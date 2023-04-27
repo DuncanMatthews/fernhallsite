@@ -46,7 +46,7 @@ const Index3 = ({posts}) => {
                       <Link href="/about">
                         <a className="main-btn btn-yellow">Learn About Us</a>
                       </Link>
-                      <Link href="/portfolio-grid">
+                      <Link href="#">
                         <a className="main-btn btn-white">Upcoming Events</a>
                       </Link>
                     </div>
@@ -88,7 +88,7 @@ const Index3 = ({posts}) => {
                       <Link href="/about">
                         <a className="main-btn btn-yellow">Learn About Us</a>
                       </Link>
-                      <Link href="/portfolio-full-width">
+                      <Link href="#">
                         <a className="main-btn btn-white">Upcoming Events</a>
                       </Link>
                     </div>
