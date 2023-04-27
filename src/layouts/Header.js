@@ -363,7 +363,7 @@ const Header3 = ({ overlayPanel, togglePanel }) => (
                 <MobileHeader />
                 {/*=== Navbar Menu Button ===*/}
                 <div className="menu-button">
-                  <Link href="/contact">
+                  <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                     <a className="main-btn btn-yellow">Book</a>
                   </Link>
                 </div>
@@ -377,7 +377,7 @@ const Header3 = ({ overlayPanel, togglePanel }) => (
                   </span>
                 </div>
                 <div className="menu-button">
-                  <Link href="/contact">
+                  <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                     <a className="main-btn btn-yellow">Book</a>
                   </Link>
                 </div>
@@ -510,7 +510,7 @@ const Header4 = ({ overlayPanel, togglePanel }) => (
                   </span>
                 </div>
                 <div className="menu-button">
-                  <Link href="/contact">
+                  <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                     <a className="main-btn bordered-btn bordered-yellow">
                       Book
                     </a>
@@ -623,7 +623,7 @@ const DefaultHeader = () => (
               <MobileHeader />
               {/*=== Navbar Menu Button ===*/}
               <div className="menu-button">
-                <Link href="/contact">
+                <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                   <a className="main-btn btn-yellow">Book</a>
                 </Link>
               </div>
