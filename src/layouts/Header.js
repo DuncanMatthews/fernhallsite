@@ -207,7 +207,7 @@ const Header2 = () => (
           <div className="col-xl-6 col-lg-12 col-md-12 col-6">
             <div className="top-bar-left d-flex align-items-center">
               <span className="text">
-                Welcome to Agriculture &amp; Organic Food Template
+                Welcome to Fernhall &amp; Sheep Farm and Historical Estate
               </span>
               <span className="lang-dropdown">
                 <select className="wide">
@@ -538,7 +538,7 @@ const DefaultHeader = () => (
           <div className="col-xl-6 col-lg-12 col-md-12 col-6">
             <div className="top-bar-left d-flex align-items-center">
               <span className="text">
-                Welcome to Agriculture &amp; Organic Food Template
+                Welcome to Fernhall &amp; Book your stay
               </span>
               <span className="lang-dropdown">
                 <select className="wide">
