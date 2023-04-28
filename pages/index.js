@@ -3,6 +3,9 @@ import Slider from "react-slick";
 import Counter from "../src/components/Counter";
 import TestimonialSlider from "../src/components/sliders/TestimonialSlider";
 import Layout from "../src/layouts/Layout";
+
+
+
 import { blogPosts } from "../Data/blogpost";
 import {
   heroSliderOne,
@@ -10,11 +13,14 @@ import {
   projectsSliderTwo,
   serviceSliderOne,
 } from "../src/sliderProps";
+import VideoPopup from "../src/components/VideoPopup";
+import Subscribe from "../src/components/subscribe";
 const Index3 = ({posts}) => {
   return (
     <Layout header={3} footer={3}>
       <section className="hero-area-three">
         <Slider {...heroSliderOne} className="hero-slider-one">
+          
           <div className="single-slider p-r z-1">
             <div
               className="image-layer bg_cover"
@@ -23,7 +29,9 @@ const Index3 = ({posts}) => {
                   "url(assets/images/hero/hero_three-slider-1.jpg)",
               }}
             />
-            
+    
+
+    
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
@@ -98,6 +106,8 @@ const Index3 = ({posts}) => {
             </div>
           </div>
         </Slider>
+
+       
       </section>
       {/*====== End Hero Section ======*/}
       {/*====== Start Features Section ======*/}
@@ -178,7 +188,7 @@ const Index3 = ({posts}) => {
       </section>
       {/*====== End About Section ======*/}
       {/*====== Start Fun Fact Section ======*/}
-      
+      <Subscribe />
       {/*====== End Fun Fact Section ======*/}
       {/*====== Start CTA Section ======*/}
       <section className="cta-one p-r">
@@ -224,6 +234,8 @@ const Index3 = ({posts}) => {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
+
+      <VideoPopup />
       {/*====== Start Service Section ======*/}
       <section className="service-two light-black-bg pt-165">
         <div className="container">

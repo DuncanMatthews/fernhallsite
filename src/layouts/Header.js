@@ -272,12 +272,7 @@ const Header2 = () => (
                 </Link>
               </div>
               {/*=== Navbar Call Button ===*/}
-              <div className="call-button text-center">
-                <span>
-                  <i className="far fa-phone" />
-                  <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                </span>
-              </div>
+              
               {/*=== Main Menu ===*/}
               <Menu />
               <MobileHeader />
@@ -290,12 +285,7 @@ const Header2 = () => (
             </div>
             {/*=== nav Right Item ===*/}
             <div className="nav-right-item d-flex align-items-center">
-              <div className="call-button">
-                <span>
-                  <i className="far fa-phone" />
-                  <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                </span>
-              </div>
+              
               <div className="menu-button">
                 <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                   <a className="main-btn btn-yellow">Book</a>
@@ -352,12 +342,7 @@ const Header3 = ({ overlayPanel, togglePanel }) => (
                   </Link>
                 </div>
                 {/*=== Navbar Call Button ===*/}
-                <div className="call-button text-center">
-                  <span>
-                    <i className="far fa-phone" />
-                    <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                  </span>
-                </div>
+                
                 {/*=== Main Menu ===*/}
                 <Menu />
                 <MobileHeader />
@@ -370,12 +355,7 @@ const Header3 = ({ overlayPanel, togglePanel }) => (
               </div>
               {/*=== Nav Right Item ===*/}
               <div className="nav-right-item d-flex align-items-center">
-                <div className="call-button">
-                  <span>
-                    <i className="far fa-phone" />
-                    <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                  </span>
-                </div>
+                
                 <div className="menu-button">
                   <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                     <a className="main-btn btn-yellow">Book</a>
@@ -485,12 +465,7 @@ const Header4 = ({ overlayPanel, togglePanel }) => (
                   </Link>
                 </div>
                 {/*=== Navbar Call Button ===*/}
-                <div className="call-button text-center">
-                  <span>
-                    <i className="far fa-phone" />
-                    <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                  </span>
-                </div>
+                
                 {/*=== Main Menu ===*/}
                 <Menu />
                 <MobileHeader />
@@ -503,12 +478,7 @@ const Header4 = ({ overlayPanel, togglePanel }) => (
               </div>
               {/*=== Nav Right Item ===*/}
               <div className="nav-right-item d-flex align-items-center">
-                <div className="call-button">
-                  <span>
-                    <i className="far fa-phone" />
-                    <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                  </span>
-                </div>
+                
                 <div className="menu-button">
                   <Link href="https://www.airbnb.com/rooms/32234578?source_impression_id=p3_1682545818_75Wbf2UAxv%2Be518G">
                     <a className="main-btn bordered-btn bordered-yellow">
@@ -612,12 +582,7 @@ const DefaultHeader = () => (
                 </Link>
               </div>
               {/*=== Navbar Call Button ===*/}
-              <div className="call-button text-center">
-                <span>
-                  <i className="far fa-phone" />
-                  <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                </span>
-              </div>
+              
               {/*=== Main Menu ===*/}
               <Menu />
               <MobileHeader />
@@ -631,10 +596,7 @@ const DefaultHeader = () => (
             {/*=== Nav Right Item ===*/}
             <div className="nav-right-item d-flex align-items-center">
               <div className="call-button">
-                <span>
-                  <i className="far fa-phone" />
-                  <a href="tel:+(503) 288-5967">+(503) 288-5967</a>
-                </span>
+              
               </div>
               <div className="menu-button">
                 <Link href="/contact">
