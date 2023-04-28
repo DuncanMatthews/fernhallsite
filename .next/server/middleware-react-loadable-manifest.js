@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"book-your-wedding.js -> ../src/components/PortfolioGridIsotope":{id:9205,files:["static/chunks/391.07d49f0575a5578e.js","static/chunks/205.843f30f780aeb7d9.js"]},"portfolio-full-width.js -> ../src/components/PortfolioFullWidthIsotope":{id:6194,files:["static/chunks/391.07d49f0575a5578e.js","static/chunks/194.144a0c125f10fdd4.js"]}};
