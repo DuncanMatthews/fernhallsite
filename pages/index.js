@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Slider from "react-slick";
 import Counter from "../src/components/Counter";
-import TestimonialSlider from "../src/components/sliders/TestimonialSlider";
 import Layout from "../src/layouts/Layout";
 
 
