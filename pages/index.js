@@ -14,6 +14,8 @@ import {
 } from "../src/sliderProps";
 import VideoPopup from "../src/components/VideoPopup";
 import Subscribe from "../src/components/subscribe";
+
+
 const Index3 = ({posts}) => {
   return (
     <Layout header={3} footer={3}>
