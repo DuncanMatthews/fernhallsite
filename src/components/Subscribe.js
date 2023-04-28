@@ -8,6 +8,11 @@ function Subscribe() {
 
 const [isVisible, setIsVisible] = useState(false);
 
+const handleClose = () => {
+    setIsVisible(false);
+  };
+
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(true);
@@ -52,6 +57,7 @@ const [isVisible, setIsVisible] = useState(false);
   return (
     <div className={`popup-wrapper ${isVisible ? 'visible' : ''}`}>
       <div className="popup-content">
+      
         <form className="subscribe-form" onSubmit={subscribe}>
           <label htmlFor="email-input" className="subscribe-label">
             {'Email Address'}
@@ -71,6 +77,9 @@ const [isVisible, setIsVisible] = useState(false);
           <button type="submit" className="subscribe-button">
             {'✨ Subscribe 💌'}
           </button>
+          <a className="subscriber-close-button" onClick={handleClose}>
+          No thanks
+        </a>
         </form>
       </div>
     </div>
