@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"property-overview.js -> ../src/components/PortfolioGridIsotope":{"id":"property-overview.js -> ../src/components/PortfolioGridIsotope","files":["static/chunks/src_components_PortfolioGridIsotope_js.js"]}}

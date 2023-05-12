@@ -7,7 +7,7 @@ export default async (req, res) => {
       'https://www.airbnb.com/calendar/ical/32234578.ics?s=f61a4ebfd3a89195fcfdee22b14e90f3'
     );
     const calendarData = ical.parseICS(response.data);
-    console.log(calendarData);
+
     const calendarEvents = Object.values(calendarData).map((event) => ({
       start: event.start,
       end: event.end,
