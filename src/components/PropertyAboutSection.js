@@ -57,7 +57,7 @@ The estate boasts original bronze wall sconces and chandeliers by Tiffany, one o
 
 Guests have complete privacy and access to natural spaces, with 10 acres of yard space, four outdoor covered patio areas, and a private boathouse for swimming and lake recreation. High-speed internet is provided by Adams cable service..<br></br>.<br></br>
 
-Fern Hall Estate is just minutes away from Elk Mountain Ski Resort in Union Dale, and only 2.5 hours from New York City or Philadelphia. Whether you're looking for a family getaway, a romantic retreat, or a gathering with friends, Fern Hall Estate offers a breath of fresh air and a taste of country living in a luxurious setting.
+Fern Hall Estate is just minutes away from Elk Mountain Ski Resort in Union Dale, and only 2.5 hours from New York City or Philadelphia. Whether you&apos;re looking for a family getaway, a romantic retreat, or a gathering with friends, Fern Hall Estate offers a breath of fresh air and a taste of country living in a luxurious setting.
 
 
 </p>
