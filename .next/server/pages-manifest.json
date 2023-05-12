@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/property-overview": "pages/property-overview.js",
-  "/api/calendar": "pages/api/calendar.js"
+  "/": "pages/index.js",
+  "/property-overview": "pages/property-overview.js"
 }
