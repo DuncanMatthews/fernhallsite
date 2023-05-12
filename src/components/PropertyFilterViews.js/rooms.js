@@ -70,7 +70,7 @@ const Rooms = ({limit}) => {
                 </div>
                 <div className="hover-content">
                   <h3 className="title">
-                    <Link href="/portfolio-details">
+                    <Link href="#">
                       <a>{room.title}</a>
                     </Link>
                   </h3>
