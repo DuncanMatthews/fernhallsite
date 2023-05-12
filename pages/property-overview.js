@@ -10,11 +10,10 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import NavBar from "../src/components/navbar";
 import PricingSection from "../src/components/pricing";
-import { photoGallery } from "../Data/photo-gallery";
 import ThingsToDo from "../src/components/ThingsToDo";
 import dynamic from "next/dynamic";
 import MyCalendar from "../src/components/MyCalendar1";
-import TestimonialSlider from "../src/components/sliders/TestimonialSlider";
+
 
 
 const PropertyOverview = () => {
