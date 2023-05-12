@@ -1,8 +1,26 @@
 {
-  "property-overview.js -> ../src/components/PortfolioGridIsotope": {
-    "id": "property-overview.js -> ../src/components/PortfolioGridIsotope",
+  "book-your-wedding.js -> ../src/components/PortfolioGridIsotope": {
+    "id": 6754,
     "files": [
-      "static/chunks/src_components_PortfolioGridIsotope_js.js"
+      "static/chunks/391.07d49f0575a5578e.js",
+      "static/chunks/414-d9e8ed7fb5ec38b6.js",
+      "static/chunks/675.8a209369e4ab62f7.js",
+      "static/chunks/328.73f34b410265681e.js"
+    ]
+  },
+  "portfolio-full-width.js -> ../src/components/PortfolioFullWidthIsotope": {
+    "id": 6194,
+    "files": [
+      "static/chunks/391.07d49f0575a5578e.js",
+      "static/chunks/194.144a0c125f10fdd4.js"
+    ]
+  },
+  "property-overview.js -> ../src/components/PortfolioGridIsotope": {
+    "id": 6754,
+    "files": [
+      "static/chunks/391.07d49f0575a5578e.js",
+      "static/chunks/675.8a209369e4ab62f7.js",
+      "static/chunks/754.909b0577dcde7cab.js"
     ]
   }
 }
