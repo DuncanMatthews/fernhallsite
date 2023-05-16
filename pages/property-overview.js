@@ -106,7 +106,7 @@ const PropertyOverview = () => {
           </Grid>
           <Grid xs={4}>
             <Item>
-           
+           Hi
      </Item>
           </Grid>
         </Grid>
