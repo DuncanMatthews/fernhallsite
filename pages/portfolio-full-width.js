@@ -22,7 +22,7 @@ const PortfolioFullWidth = () => {
               <div className="section-title text-center mb-60 wow fadeInUp">
                 <span className="sub-title">Project Gallery</span>
                 <h2>
-                  We’ve Done Many Other Projects Let’s See Gallery Insights
+                  We’ve Done Many Other Projects Let’s See Gallery Insights.
                 </h2>
               </div>
             </div>
