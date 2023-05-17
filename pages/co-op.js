@@ -36,7 +36,7 @@ const Services = () => {
                   <h2>Engaging Education at a  &amp;  Merino Wool Sheep Farm</h2>
                 </div>
                 <p>
-                Join us in the enchanting setting of an organically run Merino wool sheep farm. Here at Fern Hall, we've collaborated with our founding parents to create an immersive, two-day educational program. Designed for children aged 6-13, our co-op blends education, fun, and growth in a unique setting.
+                Join us in the enchanting setting of an organically run Merino wool sheep farm. Here at Fern Hall, weve collaborated with our founding parents to create an immersive, two-day educational program. Designed for children aged 6-13, our co-op blends education, fun, and growth in a unique setting.
 
 
                 </p>
@@ -72,14 +72,14 @@ const Services = () => {
   <div className="about-slider">
   <Slider {...sliderSettings}>
      <div>
-        <img
+        <Image
           src={"assets/images/Co-Op/Nature-Based-1.JPG"}
           className="about-img_one"
           alt=""
         />
       </div>
       <div>
-        <img
+        <Image
         src={"assets/images/Co-Op/Nature-Based-2.JPG"}
           className="about-img_two"
           alt=""
@@ -113,12 +113,12 @@ const Services = () => {
             <div className="col-lg-4">
               <div className="single-service-item mb-50 wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-1.png" alt="Icon" />
+                  <Image src="assets/images/icon/icon-1.png" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
                     <Link href="/service-details">
-                      <a>Children's garden</a>
+                      <a>Childrens garden</a>
                     </Link>
                   </h3>
                   <p>The project culminates with students building their own farm stand to display and share the fruits of their hard work.
@@ -128,7 +128,7 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 wow fadeInDown">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-2.png" alt="Icon" />
+                  <Image src="assets/images/icon/icon-2.png" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -141,7 +141,7 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-3.png" alt="Icon" />
+                  <Image src="assets/images/icon/icon-3.png" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -155,7 +155,7 @@ const Services = () => {
             </div>
             <div className="col-lg-4">
               <div className="img-holder mb-50 wow fadeInDown">
-                <img
+                <Image
                   src="assets/images/service/img-1.jpg"
                   alt="Service Image"
                 />
@@ -164,7 +164,7 @@ const Services = () => {
             <div className="col-lg-4">
               <div className="single-service-item mb-50 card-rtl wow fadeInDown">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-4.png" alt="Icon" />
+                  <Image src="assets/images/icon/icon-4.png" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -177,7 +177,7 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 card-rtl wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-5.png" alt="Icon" />
+                  <Image src="assets/images/icon/icon-5.png" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -190,7 +190,7 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 card-rtl wow fadeInDown">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-6.png" alt="Icon" />
+                  <Image src="assets/images/icon/icon-6.png" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -198,7 +198,7 @@ const Services = () => {
                       <a>Rugby skills (Fall)</a>
                     </Link>
                   </h3>
-                  <p>JP Smith from the Seattle Seawolves introduces the basics of Rugby, enhancing students' teamwork, strategic thinking, and physical fitness.</p>
+                  <p>JP Smith from the Seattle Seawolves introduces the basics of Rugby, enhancing students teamwork, strategic thinking, and physical fitness.</p>
                 </div>
               </div>
             </div>
@@ -257,7 +257,7 @@ const Services = () => {
     />
     <OrgariumAcc
       title={"Is homework required?"}
-      answer={"Homework is not a requirement in our program. However, depending on ongoing projects and the individual student's interest, they may wish to continue their research or work at home. We encourage students to invest age-appropriate attention and effort into their projects, but there are no penalties for incomplete assignments. Weekly communication between parents and teachers will ensure parents understand what students are working on and any optional home assignments."}
+      answer={"Homework is not a requirement in our program. However, depending on ongoing projects and the individual students interest, they may wish to continue their research or work at home. We encourage students to invest age-appropriate attention and effort into their projects, but there are no penalties for incomplete assignments. Weekly communication between parents and teachers will ensure parents understand what students are working on and any optional home assignments."}
       event={"collapse2"}
       onClick={() => setActive("collapse2")}
       active={active}
