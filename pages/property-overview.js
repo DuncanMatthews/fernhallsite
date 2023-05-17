@@ -107,13 +107,13 @@ const PropertyOverview = () => {
           </Grid>
           <Grid xs={4}>
             <Item>
+              <h4 className="nav-calendar">See Availability</h4>
            <CalendarView />
      </Item>
           </Grid>
         </Grid>
       </Box>
-
-      <CalendarView />
+      
       </div>
   
   
