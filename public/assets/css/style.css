@@ -5424,9 +5424,7 @@ color: grey;
     11. Start Team css 
 ==========================*/
 /* Team Section CSS */
-.farmers-team_two {
-  padding-top: 260px;
-}
+
 
 .team-member_one {
   position: relative;
@@ -7944,4 +7942,9 @@ h4.nav-calendar {
   .css-tttlff-MuiGrid2 {
     display: none !important;
   }
+}
+
+
+.about-slider {
+  margin-top: 17rem;
 }

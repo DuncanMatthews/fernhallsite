@@ -1,9 +1,12 @@
 import Link from "next/link";
 import Slider from "react-slick";
 import PageBanner from "../src/components/PageBanner";
+
 import Layout from "../src/layouts/Layout";
 import { serviceSliderOne } from "../src/sliderProps";
 const ServicesDetails = () => {
+
+  
   return (
     <Layout>
       <PageBanner pageTitle={"Services"} pageName={" Service Details"} />
@@ -12,17 +15,15 @@ const ServicesDetails = () => {
           <div className="row">
             <div className="col-xl-8 col-lg-7">
               <div className="service-details-wrapper">
-                <div className="img-holder wow fadeInUp">
-                  <img src="assets/images/service/single-img-1.jpg" alt="" />
-                </div>
+                
                 <div className="content text-center wow fadeInDown">
                   <h3 className="title">
-                    Organic Fresh Whats &amp; Vegetables
+                  Engaging Education at a  &amp; Merino Wool Sheep Farm
                   </h3>
                   <p>
-                    Nemo enim epsam voluptatem quia voluptas sit aspernatur aut
-                    odit aut fugit seduia consequuntur magni dolores eosratione
-                    voluptatem
+                  Join us in the enchanting setting of an organically run Merino wool sheep farm. Here at Fern Hall, we've collaborated with our founding parents to create an immersive, two-day educational program. Designed for children aged 6-13, our co-op blends education, fun, and growth in a unique setting.
+
+
                   </p>
                 </div>
                 <div className="service-content wow fadeInUp">
