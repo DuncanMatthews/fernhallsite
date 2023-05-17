@@ -87,7 +87,7 @@ const NavBar = () => {
         onClick={handleNavItemClick}
         rel="Vendors"
       >
-        Vendors
+        To Do
       </Link>
     </li>
   </ul>

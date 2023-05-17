@@ -7939,3 +7939,9 @@ h4.nav-calendar {
 .rbc-calendar {
   margin-top: 2rem;
 }
+
+@media (max-width: 480px) {
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1633um2-MuiPaper-root {
+    display: none !important;
+  }
+}
