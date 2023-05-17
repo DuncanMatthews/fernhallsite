@@ -4,6 +4,7 @@ import PageBanner from "../src/components/PageBanner";
 import TestimonialSlider from "../src/components/sliders/TestimonialSlider";
 import Layout from "../src/layouts/Layout";
 import { Accordion } from "react-bootstrap";
+import Image from "next/image";
 
 import OrgariumAcc from "../src/components/OrgariumAcc";
 
