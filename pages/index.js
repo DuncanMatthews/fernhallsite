@@ -204,10 +204,10 @@ const Index3 = ({posts}) => {
                   }}
                 >
                   <div className="text d-flex justify-content-between align-items-center">
-                    <h2>Book a dream wedding</h2>
-                    <Link href="/book-your-wedding">
+                    <h2>View Property</h2>
+                    <Link href="/property-overview">
                       <a className="main-btn bordered-btn bordered-white">
-                        Get Quote
+                        View Fernhall Estate
                       </a>
                     </Link>
                   </div>
