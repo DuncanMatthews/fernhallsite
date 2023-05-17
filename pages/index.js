@@ -244,7 +244,7 @@ const Index3 = ({posts}) => {
             <div className="col-xl-6 col-lg-10">
               <div className="section-title section-title-white text-center mb-50 wow fadeInDown">
     
-                <h2 class="section-title-heading">Escape to the peaceful countryside of Northeastern Pennsylvania and immerse yourself in the historic charm of Fern Hall Estate.</h2>
+                <h2 className="section-title-heading">Escape to the peaceful countryside of Northeastern Pennsylvania and immerse yourself in the historic charm of Fern Hall Estate.</h2>
               </div>
             </div>
           </div>

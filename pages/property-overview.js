@@ -12,7 +12,8 @@ import NavBar from "../src/components/navbar";
 import PricingSection from "../src/components/pricing";
 import ThingsToDo from "../src/components/ThingsToDo";
 import dynamic from "next/dynamic";
-import MyCalendar from "../src/components/MyCalendar1";
+import CalendarView from "../src/components/MyCalendar1";
+
 
 
 
@@ -106,7 +107,7 @@ const PropertyOverview = () => {
           </Grid>
           <Grid xs={4}>
             <Item>
-           Hi
+           <CalendarView />
      </Item>
           </Grid>
         </Grid>

@@ -1038,7 +1038,7 @@ button {
   font-size: 14px;
   margin-left: 5px;
   margin-top: 2px;
-  float: right;
+
 }
 @media (max-width: 1199px) {
   .header-navigation .main-menu ul > li.has-children > a:after {
@@ -7924,25 +7924,4 @@ h2.wedding-section-heading {
   background-color: #1f1e17;
   mix-blend-mode: multiply;
   z-index: -1;
-}
-/*# sourceMappingURL=style.css.map */
-
-
-
-.rooms-container {
-  margin: 50px 0px;
-}
-
-.navbar-wedding {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-.navbar-wedding ul {
-  transform: translateZ(0px);
-}
-
-.portfolio-filter-button {
-  border-radius: 10px;
 }
