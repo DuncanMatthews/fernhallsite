@@ -112,6 +112,8 @@ const PropertyOverview = () => {
           </Grid>
         </Grid>
       </Box>
+
+      <CalendarView />
       </div>
   
   

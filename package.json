@@ -12,6 +12,8 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fullcalendar/bootstrap": "^6.1.7",
     "@fullcalendar/core": "~6.1.7",
     "@fullcalendar/daygrid": "^6.1.7",
     "@fullcalendar/interaction": "^6.1.7",
@@ -25,6 +27,7 @@
     "@shopify/shopify-api": "^7.0.0",
     "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
     "date-fns": "^2.30.0",
     "dotenv": "^16.0.3",
     "firebase": "^9.21.0",

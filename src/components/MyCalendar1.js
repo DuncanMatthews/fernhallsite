@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import FullCalendar from '@fullcalendar/react';
-import dayGridPlugin from '@fullcalendar/daygrid';
-import interactionPlugin from "@fullcalendar/interaction"; // needed for dayClick
+import { Calendar, momentLocalizer } from 'react-big-calendar';
+import moment from 'moment';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
+
+const localizer = momentLocalizer(moment);
 
 const CalendarView = () => {
   const [events, setEvents] = useState([]);
@@ -13,8 +15,8 @@ const CalendarView = () => {
         const data = await response.json();
         setEvents(data.map(event => ({
           title: event.summary,
-          start: event.start,
-          end: event.end,
+          start: new Date(event.start),
+          end: new Date(event.end),
           allDay: true,
         })));
       } catch (error) {
@@ -25,17 +27,19 @@ const CalendarView = () => {
     fetchCalendarData();
   }, []);
 
-  const handleDateClick = (arg) => {
-    alert(arg.dateStr)
+  const handleSelectEvent = (event) => {
+    alert(`Selected event: ${event.title}`)
   }
 
   return (
     <div>
-      <FullCalendar
-        plugins={[ dayGridPlugin, interactionPlugin ]}
-        initialView="dayGridMonth"
+      <Calendar
+        localizer={localizer}
         events={events}
-        dateClick={handleDateClick}
+        startAccessor="start"
+        endAccessor="end"
+        style={{ height: 400 }}
+        onSelectEvent={handleSelectEvent}
       />
     </div>
   );
