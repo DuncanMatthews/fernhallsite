@@ -15,22 +15,22 @@ const Rooms = ({limit}) => {
       const imagePaths = [
         {
           src: "gs://fernhall-esta.appspot.com/Main House/Rooms/All Rooms/Room-1.jpg",
-          title: "East View",
-          category: ["View from the east"],
+          title: "Bedroom #1",
+          category: ["Large bedroom with two double beds"],
         },
         {
           src: "gs://fernhall-esta.appspot.com/Main House/Rooms/All Rooms/Room-2.jpg",
-          title: "West View",
-          category: ["View of property from west"],
+          title: "Bedroom #2",
+          category: ["En-suite bedroom with 2 double beds"],
         },
         {
           src: "gs://fernhall-esta.appspot.com/Main House/Rooms/All Rooms/Room-3.jpg",
-          title: "West View",
-          category: ["View of property from west"],
+          title: "Bedroom #3",
+          category: ["Large bedroom with two double beds"],
         },{
           src: "gs://fernhall-esta.appspot.com/Main House/Rooms/All Rooms/Room-5.jpg",
-          title: "West View",
-          category: ["View of property from west"],
+          title: "Bedroom #4",
+          category: ["Large bedroom with two double beds"],
         },
       ];
 
