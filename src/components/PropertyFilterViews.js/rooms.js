@@ -1,7 +1,9 @@
 
 import { Fragment, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-
+import { getDownloadURL, ref } from 'firebase/storage';
+import { storage } from '../../../firebase';
+import Image from "next/image";
 
 const Rooms = ({limit}) => {
   // Initialize with empty array
