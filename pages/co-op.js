@@ -234,16 +234,28 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="faq-one_img-box mb-50">
-                <img
-                  src="/assets/images/Co-Op/Nature-Based-4.JPG"
-                  className="faq-img-one wow fadeInUp"
-                  alt="Faq Image"
-                />
-                <img
-                  src="/assets/images/Co-Op/Nature-Based-5.JPG"
-                  className="faq-img-two wow fadeInDown"
-                  alt="Faq Image"
-                />
+              <div className="about-slider">
+  <Slider {...sliderSettings}>
+     <div>
+        <Image
+              src="/assets/images/Co-Op/Nature-Based-4.JPG"
+          className="about-img_one"
+          alt=""
+          width={1200}
+          height={1000}
+        />
+      </div>
+      <div>
+      <Image
+      src="/assets/images/Co-Op/Nature-Based-5.JPG"
+      alt="Landscape picture"
+      width={1200}
+          height={1000}
+          className="about-img_one"
+    />
+    </div>
+    </Slider>
+  </div>
               </div>
             </div>
             <div className="col-lg-6">
