@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 import OrgariumAcc from "../src/components/OrgariumAcc";
+import PageBanner3 from "../src/components/PageBanner3";
 
 // Settings for the Slider
 const sliderSettings = {
@@ -27,7 +28,7 @@ const Services = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      <PageBanner pageName={"CO-OP"} />
+      <PageBanner3 pageName={"CO-OP"} />
       <section className="about-section p-r z-1 pt-170 pb-80">
         <div className="container">
           <div className="row">
@@ -79,7 +80,7 @@ const Services = () => {
           className="about-img_one"
           alt=""
           width={1200}
-          height={680}
+          height={900}
         />
       </div>
       <div>
@@ -87,7 +88,7 @@ const Services = () => {
       src="/assets/images/Co-Op/Nature-Based-2.JPG"
       alt="Landscape picture"
       width={1200}
-          height={680}
+          height={900}
           className="about-img_one"
     />
     </div>
@@ -105,7 +106,7 @@ const Services = () => {
       
       {/*====== End Skill Section ======*/}
       {/*====== Start Service Section ======*/}
-      <section className="farmers-team_two light-gray-bg pb-90">
+      <section className="farmers-team_two light-gray-bg pb-60 ">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
@@ -119,7 +120,9 @@ const Services = () => {
             <div className="col-lg-4">
               <div className="single-service-item mb-50 wow fadeInUp">
                 <div className="icon">
-                  <Image src="assets/images/icon/icon-1.png" alt="Icon" />
+                  <Image src="/assets/images/icon/icon-1.png" alt="Icon"
+                   width={60 }
+                   height={60 } />
                 </div>
                 <div className="text">
                   <h3>
@@ -134,7 +137,8 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 wow fadeInDown">
                 <div className="icon">
-                  <Image src="assets/images/icon/icon-2.png" alt="Icon" />
+                  <Image src="/assets/images/icon/icon-2.png" width={60 }
+                   height={60 } alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -147,7 +151,8 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 wow fadeInUp">
                 <div className="icon">
-                  <Image src="assets/images/icon/icon-3.png" alt="Icon" />
+                  <Image src="/assets/images/icon/icon-3.png" width={60}
+                   height={60 } alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -162,15 +167,18 @@ const Services = () => {
             <div className="col-lg-4">
               <div className="img-holder mb-50 wow fadeInDown">
                 <Image
-                  src="assets/images/service/img-1.jpg"
+                  src="/assets/images/Co-Op/Nature-Based-3.JPG"
                   alt="Service Image"
+                  width={370}
+                   height={580}
                 />
               </div>
             </div>
             <div className="col-lg-4">
               <div className="single-service-item mb-50 card-rtl wow fadeInDown">
                 <div className="icon">
-                  <Image src="assets/images/icon/icon-4.png" alt="Icon" />
+                  <Image src="/assets/images/icon/icon-4.png" width={60 }
+                   height={60 } alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -183,7 +191,8 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 card-rtl wow fadeInUp">
                 <div className="icon">
-                  <Image src="assets/images/icon/icon-5.png" alt="Icon" />
+                  <Image src="/assets/images/icon/icon-5.png" width={60 }
+                   height={60 } alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
@@ -196,7 +205,9 @@ const Services = () => {
               </div>
               <div className="single-service-item mb-50 card-rtl wow fadeInDown">
                 <div className="icon">
-                  <Image src="assets/images/icon/icon-6.png" alt="Icon" />
+                  <Image src="/assets/images/icon/icon-6.png" width={60 }
+                   height={60 } alt="Icon" />
+                  
                 </div>
                 <div className="text">
                   <h3>
@@ -224,12 +235,12 @@ const Services = () => {
             <div className="col-lg-6">
               <div className="faq-one_img-box mb-50">
                 <img
-                  src="assets/images/faq/faq-1.jpg"
+                  src="/assets/images/Co-Op/Nature-Based-4.JPG"
                   className="faq-img-one wow fadeInUp"
                   alt="Faq Image"
                 />
                 <img
-                  src="assets/images/faq/faq-2.jpg"
+                  src="/assets/images/Co-Op/Nature-Based-5.JPG"
                   className="faq-img-two wow fadeInDown"
                   alt="Faq Image"
                 />
