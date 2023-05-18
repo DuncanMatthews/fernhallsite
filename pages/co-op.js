@@ -75,17 +75,21 @@ const Services = () => {
   <Slider {...sliderSettings}>
      <div>
         <Image
-          src={"assets/images/Co-Op/Nature-Based-1.JPG"}
+              src="/assets/images/Co-Op/Nature-Based-1.JPG"
           className="about-img_one"
           alt=""
+          width={1200}
+          height={680}
         />
       </div>
       <div>
-        <Image
-        src={"assets/images/Co-Op/Nature-Based-2.JPG"}
-          className="about-img_two"
-          alt=""
-        />
+      <Image
+      src="/assets/images/Co-Op/Nature-Based-2.JPG"
+      alt="Landscape picture"
+      width={1200}
+          height={680}
+          className="about-img_one"
+    />
     </div>
     </Slider>
   </div>
