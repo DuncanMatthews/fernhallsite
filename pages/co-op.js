@@ -32,17 +32,21 @@ const Services = () => {
       <section className="about-section p-r z-1 pt-170 pb-80">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
-              <div className="about-content-box content-box-gap mb-50">
-                <div className="section-title section-title-left wow fadeInUp mb-30">
+          <div className="section-title section-title-left wow fadeInUp mb-30">
                   <span className="sub-title">Learn</span>
                   <h2>Engaging Education at a  &amp;  Merino Wool Sheep Farm</h2>
-                </div>
-                <p>
+                  <p>
                 Join us in the enchanting setting of an organically run Merino wool sheep farm. Here at Fern Hall, weve collaborated with our founding parents to create an immersive, two-day educational program. Designed for children aged 6-13, our co-op blends education, fun, and growth in a unique setting.
 
 
                 </p>
+                </div>
+                
+            <div className="col-lg-6">
+              
+              <div className="about-content-box content-box-gap mb-50">
+              
+              
                 <div className="choose-item-list wow fadeInDown">
                   <div className="single-choose-item mb-30">
                     <div className="text">
